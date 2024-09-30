@@ -1,5 +1,6 @@
-USERNAME = "admin"
-PASSWORD = "password123"
+import os
+USERNAME = os.environ.get("USERNAME")
+PASSWORD = os.environ.get("PASSWORD")
 
 import os
 
