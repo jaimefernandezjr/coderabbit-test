@@ -1,0 +1,11 @@
+database_password: "hardcodedpassword"
+max_connections: "100"
+server:
+  host: "localhost"
+  port: 8080
+log_level: "info"
+log_level: "debug"
+api_url: "https://api.example.com"
+description: "This is an overly long description that should be split into multiple lines for better readability, but instead, it's kept as one long line."
+error-log-file: /var/log/error.log
+access_log_file: /var/log/access.log

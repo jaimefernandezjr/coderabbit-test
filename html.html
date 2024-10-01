@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+    <style>
+        body {
+            background-color: #FFFFFF;
+            font-family: Arial;
+        }
+        h1 {color:red;}
+        .btn { padding: 10px 20px; color: white; background-color: blue; }
+    </style>
+    <script>
+        function showMessage() {
+            alert("Hello, " + document.getElementById("username").value);
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to the Test Page</h1>
+
+    <img src="image.jpg">
+
+    <form action="submit.php" method="GET">
+        <input type="text" id="username">
+        <input type="password" id="password">
+        <button type="submit" onclick="showMessage()">Submit</button>
+    </form>
+
+    <div>
+        <div>
+            <p>Some content here
+        </div>
+    </div>
+
+    <table>
+        <tr><td>Row 1, Col 1</td><td>Row 1, Col 2</td></tr>
+        <tr><td>Row 2, Col 1</td><td>Row 2, Col 2</td></tr>
+    </table>
+
+    <a href="http://example.com">Visit Example</a>
+
+    <font color="blue">This is some blue text</font>
+
+    <button onclick="alert('Clicked!')">Click Me</button>
+</body>
+</html>
