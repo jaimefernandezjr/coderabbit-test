@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'; 
 
-const unusedVariable = "I am not used anywhere";
 
 const API_KEY = "12345-ABCDE";
 
